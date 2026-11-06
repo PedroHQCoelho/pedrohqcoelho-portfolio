@@ -146,6 +146,7 @@ export const Projects = () => {
                             <a 
                                 href={project.link}
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 title="View Project" 
                                 className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                             >
@@ -154,6 +155,7 @@ export const Projects = () => {
                             <a 
                                 href={project.github}
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                             >
                                 <SiGithub className="w-5 h-5" />

@@ -7,12 +7,12 @@ import {
 import { FaLinkedin, FaItchIo } from 'react-icons/fa6'
 
 const socialLinks = [
-  {icon: SiGithub, href: "https://github.com/PedroHQCoelho"},
-  {icon: FaLinkedin, href: "https://linkedin.com/in/pedrohqcoelho", title: "LinkedIn"},
-  {icon: SiInstagram, href: "https://instagram.com/pedro.hq.coelho"},
-  {icon: SiX, href: "https://x.com/pedrohqcoelho"},
-  { icon: FaItchIo, href: "https://pedrocoelho.itch.io", title: "itch.io"},
-  {icon: SiFacebook, href: "https://facebook.com/pedrohqcoelho"},
+  { icon: SiGithub, href: "https://github.com/PedroHQCoelho", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://linkedin.com/in/pedrohqcoelho", label: "LinkedIn", title: "LinkedIn" },
+  { icon: SiInstagram, href: "https://instagram.com/pedro.hq.coelho", label: "Instagram" },
+  { icon: SiX, href: "https://x.com/pedrohqcoelho", label: "X" },
+  { icon: FaItchIo, href: "https://pedrocoelho.itch.io", label: "itch.io", title: "itch.io" },
+  { icon: SiFacebook, href: "https://facebook.com/pedrohqcoelho", label: "Facebook" },
 ];
 
 const footerLinks = [
@@ -59,6 +59,7 @@ export const Footer = () => {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
+                title={social.title}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
                 <social.icon className="w-5 h-5" />
