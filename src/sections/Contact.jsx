@@ -135,7 +135,6 @@ export const Contact = () => {
                           E-mail
                         </label>
                         <input
-                          id="email"
                           type="email"
                           required
                           placeholder="your@email.com"
