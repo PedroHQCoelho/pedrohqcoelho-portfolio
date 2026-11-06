@@ -61,17 +61,19 @@ export const Hero = () => {
             <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Column - Text Content */}
-                    <div className="space-y-8">
+                    <div className="space-y-8 min-w-0">
                         <div className="animate-fade-in">
-                          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">  
-                                <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                          <span className="inline-flex items-center gap-2 px-4 py-2 w-fit max-w-full rounded-2xl sm:rounded-full glass text-sm text-primary">  
+                                <span className="w-2 h-2 rounded-full bg-primary animate-pulse shrink-0" />
+                                    <span className="min-w-0 whitespace-normal break-words">
                                     Computer Engineer • Front-End Developer • Game Designer
+                                    </span>
                             </span>
                         </div>
 
                         {/* Headline */}
                         <div className="space-y-4">
-                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+                            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight break-words animate-fade-in animation-delay-100">
                                 Building <span className="text-primary glow-text">intuitive</span> 
                                 <br />
                                 web experiences with
@@ -101,29 +103,37 @@ export const Hero = () => {
                         </div>
 
                         {/* Social Links */}
-                        <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-                            <span className="text-muted-foreground">Follow me: </span>
-                            {[
-                                {icon: SiGithub, href: "https://github.com/PedroHQCoelho"},
-                                {icon: FaLinkedin, href: "https://linkedin.com/in/pedrohqcoelho", title: "LinkedIn"},
-                                {icon: SiInstagram, href: "https://instagram.com/pedro.hq.coelho"},
-                                {icon: SiX, href: "https://x.com/pedrohqcoelho"},
-                                { icon: FaItchIo, href: "https://pedrocoelho.itch.io", title: "itch.io"},
-                                {icon: SiFacebook, href: "https://facebook.com/pedrohqcoelho"},
-                            ].map((social, idx) => (
-                               <a 
-                                 key={idx} 
-                                 href={social.href}
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                                 title={social.title}
-                                 aria-label={`Visitar perfil ${idx + 1}`}
-                                 className="p-2 rounded-full glass hover:bg-primary transition-all duration-300"
-                               >
-                                 {<social.icon className="w-5 h-5" />}
-                                </a>   
-                            ))}
-                        </div>
+<div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 animate-fade-in animation-delay-400 min-w-0">
+
+    <span className="text-muted-foreground">
+        Follow me:
+    </span>
+
+    <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+
+        {[
+            { icon: SiGithub, href: "https://github.com/PedroHQCoelho", title: "GitHub" },
+            { icon: FaLinkedin, href: "https://linkedin.com/in/pedrohqcoelho", title: "LinkedIn" },
+            { icon: SiInstagram, href: "https://instagram.com/pedro.hq.coelho", title: "Instagram" },
+            { icon: SiX, href: "https://x.com/pedrohqcoelho", title: "X" },
+            { icon: FaItchIo, href: "https://pedrocoelho.itch.io", title: "itch.io" },
+            { icon: SiFacebook, href: "https://facebook.com/pedrohqcoelho", title: "Facebook" },
+        ].map((social) => (
+            <a
+                key={social.title}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={social.title}
+                aria-label={`Visit my ${social.title} profile`}
+                className="p-2 rounded-full glass hover:bg-primary transition-all duration-300 shrink-0"
+            >
+                <social.icon className="w-5 h-5" />
+            </a>
+        ))}
+
+    </div>
+</div>
                     </div>
                     {/* Right Column - Profile Image */}
                     <div className="relative animate-fade-in animation-delay-300">
