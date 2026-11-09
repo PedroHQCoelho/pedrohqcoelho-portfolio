@@ -27,8 +27,8 @@ const projects = [
       "A landing page inspired by the Starbucks website, created as a front-end practice project. It focuses on page layout, visual design and interactive elements.",
     image: "/projects/starbuckslandingpage.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://landingpagestarbucks.netlify.app/",
-    github: "https://github.com/PedroHQCoelho/treinamento-se-joga/tree/main/desafio%2301%20-%20Starbucks%20Landing%20Page",
+    link: "https://lpsb-pedro.netlify.app",
+    github: "https://github.com/PedroHQCoelho/Treinamento_squad-gatitos/tree/main/desafio%2301%20-%20Starbucks%20Landing%20Page",
   },
   {
     title: "Time of Day",
