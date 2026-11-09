@@ -93,6 +93,15 @@ const projects = [
     link: "https://mathmaster-game.netlify.app/",
     github: "https://github.com/PedroHQCoelho/mathmaster",
   },
+  {
+    title: "Be The Hero",
+    description:
+      "A web application developed during Rocketseat's OmniStack Week. It allows users to register and manage NGO cases, helping connect people with causes that need support.",
+    image: "/projects/bethehero.png",
+    tags: ["React", "Node.js", "JavaScript", "CSS"],
+    link: "https://bethehero-pedro.netlify.app/",
+    github: "https://github.com/PedroHQCoelho/be-the-hero",
+  }
 ];
 
 export const Projects = () => {
