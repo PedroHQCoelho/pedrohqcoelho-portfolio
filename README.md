@@ -23,13 +23,34 @@ The portfolio was built to present my work and development journey in one place.
 
 | Project | Description | Technologies |
 | --- | --- | --- |
+| [Minha Mangateca](https://minhamangateca.netlify.app/) | Personal manga collection manager with volume tracking, wishlist, collection statistics, backup and PDF reports. | React, JavaScript, Tailwind CSS, IndexedDB |
 | [Math Master](https://mathmaster-game.netlify.app/) | Educational browser game with five maths mini-games: basic operations, fractions, powers, percentages and equations. | HTML, CSS, JavaScript |
-| [Minha Mangateca](https://minhamangateca.netlify.app/) | Personal manga collection manager with volume tracking, wishlist and PDF reports. | React, JavaScript, Tailwind CSS |
 | [Batatinha Frita 1, 2, 3](https://batatinha-frita-1-2-3.netlify.app/) | Browser game inspired by the Red Light, Green Light challenge. | HTML, CSS, JavaScript |
 | [React Calculator](https://calculadora-react-pedro.netlify.app/) | Interactive calculator inspired by the iPhone calculator. | React, JavaScript, CSS |
 | [Be The Hero](https://bethehero-pedro.netlify.app/) | Application developed during Rocketseat's OmniStack Week to connect people with NGO cases. | React, Node.js, JavaScript |
 
 More projects and links are available on the [live portfolio](https://pedrohqcoelho.netlify.app/#projects).
+
+## Project previews
+
+A few previews of projects featured on the website:
+
+<p align="center">
+  <a href="https://minhamangateca.netlify.app/">
+    <img src="https://raw.githubusercontent.com/PedroHQCoelho/pedrohqcoelho-portfolio/main/public/projects/minhamangateca.png" alt="Minha Mangateca project preview" width="48%" />
+  </a>
+  <a href="https://mathmaster-game.netlify.app/">
+    <img src="https://raw.githubusercontent.com/PedroHQCoelho/pedrohqcoelho-portfolio/main/public/projects/mathmaster.png" alt="Math Master project preview" width="48%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://batatinha-frita-1-2-3.netlify.app/">
+    <img src="https://raw.githubusercontent.com/PedroHQCoelho/pedrohqcoelho-portfolio/main/public/projects/batatinhafrita123.png" alt="Batatinha Frita 1, 2, 3 project preview" width="48%" />
+  </a>
+  <a href="https://bethehero-pedro.netlify.app/">
+    <img src="https://raw.githubusercontent.com/PedroHQCoelho/pedrohqcoelho-portfolio/main/public/projects/bethehero.png" alt="Be The Hero project preview" width="48%" />
+  </a>
+</p>
 
 ## Technologies
 
