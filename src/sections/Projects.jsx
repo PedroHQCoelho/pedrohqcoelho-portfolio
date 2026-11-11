@@ -101,7 +101,16 @@ const projects = [
     tags: ["React", "Node.js", "JavaScript", "CSS"],
     link: "https://bethehero-pedro.netlify.app/",
     github: "https://github.com/PedroHQCoelho/be-the-hero",
-  }
+  },
+  {
+    title: "Minha Mangateca",
+    description:
+      "A personal manga collection management application that allows users to organise their manga library, track individual volumes, manage missing volumes and maintain a wishlist. It also includes collection statistics, data backup and PDF reports.",
+    image: "/projects/minhamangateca.png",
+    tags: ["React", "JavaScript", "Tailwind CSS", "Vite", "IndexedDB"],
+    link: "https://minhamangateca.netlify.app/",
+    github: "https://github.com/PedroHQCoelho/minhamangateca",
+  },
 ];
 
 export const Projects = () => {
